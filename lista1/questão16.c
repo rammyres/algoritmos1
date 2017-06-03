@@ -6,7 +6,7 @@ int main(void){
 	int n, i, par, impar;
 	
 	printf("Para evitar entrar os números vou gerar uma lista aleatória de 20 números: ");
-	int lista[n];
+	int lista[20];
 
 	for (i = 1; i <= 20; i++){
 	     lista[i]=rand()%10000;
