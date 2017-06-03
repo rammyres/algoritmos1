@@ -5,12 +5,10 @@ int main(void){
 	
 	int n, i, par, impar;
 	
-	printf("Para evitar entrar os números vou gerar uma lista aleatória de números: ");
-	printf("Digite quantos números serão avaliados: ");
-	scanf("%d", &n);
+	printf("Para evitar entrar os números vou gerar uma lista aleatória de 20 números: ");
 	int lista[n];
 
-	for (i = 1; i <= n; i++){
+	for (i = 1; i <= 20; i++){
 	     lista[i]=rand()%10000;
 	     printf("%d ", lista[i]);	
 	}
