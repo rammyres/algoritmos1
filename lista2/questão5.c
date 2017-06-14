@@ -1,8 +1,6 @@
 /*
-
 Lista avaliativa 
 Questão 5
-
 */
 
 #include <stdio.h>
@@ -41,9 +39,7 @@ int main(int argc, char *argv[] /*void*/){
 	float salario;
 
 /* 
-
 Nesta abordagem os valores são passados como parametros e o resultado é escrito no stdout, ou invés de usar o prompt interativo.
-
 */ 
 
 
