@@ -30,8 +30,8 @@ bool eh_inteiro(float numero){ //O objetivo desta função é verificar se um n�
 	return resultado;
 }
 
-
-bool eh_primo(int numero){ //O objetivo desta função é verificar se o número inteiro passado como parâmetro é primo
+ //O objetivo desta função é verificar se o número inteiro passado como parâmetro é primo
+bool eh_primo(long numero){ //o tipo long evita que números grandes possan ser apontados como não primos erroneamente, mas ainda assim está limitado a 10 casas e 32 bits
 
 	bool resultado = true; //Se nenhuma das situações abaixo for verdadeira o número é primo 
 	int i;
@@ -68,6 +68,7 @@ int main(void){
 	float quantidade=1;
 
 	printf("O objetivo deste programa é ler uma sequência de números, cuja extensão será fornecida pelo usuário e determinar quais deles são primos\n");
+	printf("Em decorrência da limitação da linguagem e diferenças de plataformas, o número pode ter no máximo 32 bits (10 posições)\n");
 	printf("O programa repetirá até que a flag de encerramento seja digitada como quantidade (a flag é o número 0 ou negativo)\n");
 
 	// Garante a execução do loop até a entrada de um numero menor ou igual a 0
